@@ -18,18 +18,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-Tribes/Library/
-
-Tribes/Temp/
-
-Tribes/\.vs/
-
-Tribes/UnitTestProject/UnitTestProject/obj/Debug/
-
-Tribes/UnitTestProject/obj/Debug/
-
-Tribes/_NCrunch_Tribes/
-
-Tribes/Assets/Plugins/WP8\.meta
-
-Tribes/UnitTestProject/bin/Debug/
+/Library/
