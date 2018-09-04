@@ -15,6 +15,7 @@ public class NewPlayModeTest {
 	[UnityTest]
 	public IEnumerator NewlayModeTestWithEnumeratorPasses()
     {
+        Assert.Fail();
 		yield return null;
 	}
 }
