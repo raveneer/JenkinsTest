@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="2.0.50727.1433" start-time="2018-09-04 13:23:57Z" end-time="2018-09-04 13:23:57Z" duration="0.1831303">
+  <test-suite type="TestSuite" id="1005" name="JenkinsTest" fullname="JenkinsTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-09-04 13:23:57Z" end-time="2018-09-04 13:23:57Z" duration="0.183130" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1009" name="Assembly-CSharp.dll" fullname="C:/UnityProject/JenkinsTest/Library/ScriptAssemblies/Assembly-CSharp.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-09-04 13:23:57Z" end-time="2018-09-04 13:23:57Z" duration="0.137508" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="5264" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1006" name="NewPlayModeTest" fullname="NewPlayModeTest" classname="NewPlayModeTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-09-04 13:23:57Z" end-time="2018-09-04 13:23:57Z" duration="0.118195" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1008" name="NewlayModeTestWithEnumeratorPasses" fullname="NewPlayModeTest.NewlayModeTestWithEnumeratorPasses" methodname="NewlayModeTestWithEnumeratorPasses" classname="NewPlayModeTest" runstate="Runnable" seed="890829318" result="Failed" start-time="2018-09-04 13:23:57Z" end-time="2018-09-04 13:23:57Z" duration="0.041441" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[Unhandled log message: '[Exception] AssertionException'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+            <stack-trace><![CDATA[NUnit.Framework.Assert.Fail (System.String message, System.Object[] args)
+NUnit.Framework.Assert.Fail ()
+NewPlayModeTest+<NewlayModeTestWithEnumeratorPasses>c__Iterator0.MoveNext () (at Assets/NewPlayModeTest.cs:18)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[AssertionException
+]]></output>
+        </test-case>
+        <test-case id="1007" name="NewPlayModeTestSimplePasses" fullname="NewPlayModeTest.NewPlayModeTestSimplePasses" methodname="NewPlayModeTestSimplePasses" classname="NewPlayModeTest" runstate="Runnable" seed="1516870639" result="Passed" start-time="2018-09-04 13:23:57Z" end-time="2018-09-04 13:23:57Z" duration="0.016476" asserts="0" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

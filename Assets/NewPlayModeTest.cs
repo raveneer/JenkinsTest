@@ -8,6 +8,7 @@ public class NewPlayModeTest {
 	[Test]
 	public void NewPlayModeTestSimplePasses() {
 		// Use the Assert class to test conditions.
+        Assert.Fail();
 	}
 
 	// A UnityTest behaves like a coroutine in PlayMode
