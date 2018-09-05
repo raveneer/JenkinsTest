@@ -5,18 +5,21 @@ using System.Collections;
 
 public class NewPlayModeTest {
 
-	[Test]
-	public void NewPlayModeTestSimplePasses() {
-		// Use the Assert class to test conditions.
-        Assert.Fail();
+	[UnityTest]
+	public IEnumerator Test_1()
+	{
+	    yield return new WaitForSeconds(1);
 	}
 
-	// A UnityTest behaves like a coroutine in PlayMode
-	// and allows you to yield null to skip a frame in EditMode
-	[UnityTest]
-	public IEnumerator NewlayModeTestWithEnumeratorPasses()
+    [UnityTest]
+    public IEnumerator Test_2()
     {
-        Assert.Fail();
-		yield return null;
-	}
+        yield return new WaitForSeconds(1);
+    }
+
+    [UnityTest]
+    public IEnumerator Test_3()
+    {
+        yield return new WaitForSeconds(1);
+    }
 }
